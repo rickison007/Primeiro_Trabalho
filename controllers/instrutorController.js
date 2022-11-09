@@ -1,4 +1,4 @@
-import Instrutor from "../models/Instrutor_Model";
+import Instrutor from "../models/Instrutor_Model.js";
 
 export const createInstrutor = async (req, res, next) => {
     const instrutor = new Instrutor(req.body);

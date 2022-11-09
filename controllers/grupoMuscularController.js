@@ -1,4 +1,4 @@
-import GrupoMuscular from "../models/Grupo_Muscular_Model";
+import GrupoMuscular from "../models/Grupo_Muscular_Model.js";
 
 export const createGrupoMuscular = async (req, res, next) => {
     const grupoMuscular = new GrupoMuscular(req.body);

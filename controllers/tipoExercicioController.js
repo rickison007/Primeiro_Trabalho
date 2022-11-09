@@ -1,4 +1,4 @@
-import TipoExercicio from "../models/Tipo_Exercicio_Model";
+import TipoExercicio from "../models/Tipo_Exercicio_Model.js";
 
 export const createTipoExercicio = async (req, res, next) => {
     const tipoExercicio = new TipoExercicio(req.body);

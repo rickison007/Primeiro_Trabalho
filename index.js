@@ -10,7 +10,7 @@ import { errorHandling } from "./utils/error.js";
 import routeTipoExercicio from "./routes/routesTipoExercicio.js";
 import routeExercicio from "./routes/routesExercicio.js";
 import routeInstrutor from "./routes/routesInstrutor.js";
-import routeFicha from "./routes/routesFicha";
+import routeFicha from "./routes/routesFicha.js";
 const app = express();
 dotenv.config();
 

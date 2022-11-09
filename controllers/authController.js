@@ -1,4 +1,4 @@
-import Aluno from "../models/Aluno_Model";// talvez remover alunoModel por Aluno
+import Aluno from "../models/Aluno_Model.js";// talvez remover alunoModel por Aluno
 import bcrypt from "bcryptjs";
 import { createError } from "../utils/error.js";
 import jwt from "jsonwebtoken";

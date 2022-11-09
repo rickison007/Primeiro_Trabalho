@@ -1,4 +1,4 @@
-import Ficha from "../models/Ficha_Model";
+import Ficha from "../models/Ficha_Model.js";
 
 export const createFicha = async (req, res, next) => {
     const grupoFicha = new Ficha(req.body);

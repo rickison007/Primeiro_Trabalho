@@ -1,4 +1,4 @@
-import Aluno from "../models/Aluno_Model";
+import Aluno from "../models/Aluno_Model.js";
 import bcrypt from "bcryptjs";
 
 

@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import Exercicio from "./Exercicio_Model";
-import TipoExercicio from "./Tipo_Exercicio_Model";
+import Exercicio from "./Exercicio_Model.js";
+import TipoExercicio from "./Tipo_Exercicio_Model.js";
 const { Schema } = mongoose;
 const FichaSchema = new Schema(
     {
